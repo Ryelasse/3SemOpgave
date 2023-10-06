@@ -32,7 +32,7 @@ def handleClient(clientSocket, addr):
              talx = int (splitText[1])
              taly = int (splitText[2])
              dict = {
-                f'tal1': talx, 'tal2': taly, 'Result': [random.randint(talx + taly)]
+                f'tal1': talx, 'tal2': taly, 'Result': [random.randint(talx,taly)]
             }
              y = json.dumps(dict)
        
