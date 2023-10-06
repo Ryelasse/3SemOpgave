@@ -50,7 +50,7 @@ def handleClient(clientSocket, addr):
 
         y = json.dumps(dict)
 
-        clientSocket.send(Text.encode())
+        clientSocket.send(y.encode())
     
 
 
